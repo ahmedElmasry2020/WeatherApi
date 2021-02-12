@@ -9,7 +9,7 @@ weather.get('/', (req, res, next) => {
         console.log(data)
         res.status(200).json({
             message: "success",
-            weather:'changed'
+            weather:'this is change i want it '
         })
     })
     .catch(err=>{
